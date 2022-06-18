@@ -10,6 +10,7 @@
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Equipe](#equipe)
 - [Instalação](#instalação-das-ferramentas-necessárias-%EF%B8%8F)
+- [Passo a Passo](#passo-a-passo)
 
 ## Sobre o Projeto
 Projeto desenvolvido para o seminário da matéria Qualidade de software(S206) ministrada pelo professor Chris Lima no primeiro semestre de 2022.
@@ -22,3 +23,5 @@ Na realização deste seminário foi utilizada a ferramenta **Pytest**, visando 
 * 👧 Luiza Monroe
 * 👦 Alvaro Breno 
 * 👦 Leonardo Mendonça
+
+## Passo a Passo

@@ -26,6 +26,10 @@ Na realização deste seminário foi utilizada a ferramenta **Pytest**, visando 
 * 👦 Leonardo Mendonça
 
 
+## Instalação
+
+
+
 ## Vantagens Pytest
 * A sintaxe simples permite que pessoas de todos os níveis possam utilizá-lo sem dificuldade;
 

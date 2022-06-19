@@ -36,8 +36,9 @@ Para saber mais sobre a ferramenta <a href="https://pypi.org/project/pip/"> Pyte
 ### Pré - Requisitos 🎯
 Para instalar o Pytest é preciso ter também em sua máquina o <a href="https://pypi.org/project/pip/">PIP</a>, gerenciador de pacotes do Python.<br>
 Normalmente, o PIP é instalado automaticamente se você:
-- Está usando Python baixado de <a href="https://www.python.org/">python.org</a>
-⁉️ Vale ressaltar que, se você estiver usando IDE's como o <a href="https://www.jetbrains.com/pt-br/pycharm/">PyCharm</a>, esta IDE já possue o PIP integrado e também uma fácil instalação do <a href="https://www.jetbrains.com/help/pycharm/pytest.html">Pytest</a>, direto em suas configurações de projeto. O <a href ="https://code.visualstudio.com/docs/python/testing">VSCode</a> também tem sua extensão com o Python e seu guia de instalação. 
+- Está usando Python baixado de <a href="https://www.python.org/">python.org</a> ⁉
+- Está usando IDE's como o <a href="https://www.jetbrains.com/pt-br/pycharm/">PyCharm</a>, que ja possui o PIP integrado e também uma fácil instalação do <a href="https://www.jetbrains.com/help/pycharm/pytest.html">Pytest</a>, direto em suas configurações de projeto.
+- O <a href ="https://code.visualstudio.com/docs/python/testing">VSCode</a> também tem sua extensão com o Python e seu guia de instalação. 
 
 ## <p>💿 Windows S.O </p>
 <p>⚠️Antes de tudo, você pode usar o CMD do Windows ou até mesmo o <a href="https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/">Git</a> Bash para isso ⚠️</p>
@@ -79,7 +80,7 @@ pytest --version
 ```
 
 ## 💿 Linux S.O 
-Você pode seguir o step do <a href ="https://python.org.br/instalacao-linux/">python.org </a> para instalação do Python em Linux
+Você pode seguir o passo-a-passo do <a href ="https://python.org.br/instalacao-linux/">python.org </a> para instalação do Python em Linux
 
 ### Instalando o Pytest
 Step 1: 
@@ -93,22 +94,53 @@ sudo apt-get install python-pytest
 ```
 
 ## 💿 MacOS
-Você pode seguir o step do <a href ="https://python.org.br/instalacao-mac/">python.org </a> para instalação do Python em MacOS
+Você pode seguir o passo-a-passo do <a href ="https://python.org.br/instalacao-mac/">python.org </a> para instalação do Python em MacOS
 
 
 
-## Vantagens Pytest
+## Vantagens do Pytest
 * A sintaxe simples permite que pessoas de todos os níveis possam utilizá-lo sem dificuldade;
-
 * Permite execução de testes em paralelo;
-
 * Facilidade na troca da execução de um teste, um conjunto ou uma suíte completa;
-
 * Detecta testes automaticamente baseando-se nos nomes dos arquivos e diretórios criados;
-
 * Open source.
 
-## Passo a Passo (Criando um teste de API)
+### Clonando o projeto 🔀
+Agora é hora de baixar o projeto e poder testar um pouco dessa ferramenta de testes unitários.
+
+- Com o terminal ainda aberto, navegue até a pasta onde deseja salvar o projeto e cole o seguinte comando:
+```bash
+git clone https://github.com/luizamonroe/Seminario-S206-PYTEST.git
+```
+**Pronto, tudo configurado! Agora é só escolher o seu IDE que preferir.** </p>
+
+
+## Iniciando os testes de API
+* Utilizaremos o <a href ="http://dummy.restapiexample.com/api/v1/employees">Dummy </a> pela simplicidade e praticidade na hora de implementar nossos scripts. Ele nos oferece rotas com todos os verbos HTTP apresentados inicialmente e nos permite buscar, criar, deletar e atualizar empregados (employees).
+* Na IDE utilizada, crie um arquivo chamado **get.py**
+* A biblioteca **requests** será utilizada para realizar as chamadas nas APIs, então devemos importá-la no nosso get.py:
+![ímage](getpy.png)
+* Guardaremos o Dummy na variável url:
+![image](dummy.jpg)
+* Precisamos criar um cabeçalho (header) informando que vamos realizar um request e que aceitamos diversos tipos de resposta do endpoint:
+![image](headers.jpg)
+* Para realizar a busca pelos empregados utilizando a biblioteca request, utilizaremos a função do verbo get, informando a url utilizada, e guardaremos essa informação em "resposta":
+![image](resposta.jpg)
+* E para imprimirmos a variável, e analisarmos o conteudo do site utilizado:
+![image](print.jpg)
+
+### Para rodar o script:
+* Pelo terminal da própria IDE utilizada:
+  * Rodar o comando **python get.py**, e o resutado deverá ser este:
+  ![image](resultado.jpg)
+
+* Pelo terminal do próprio computador:
+  * Navegar até a pasta criada (no meu caso Documents\Inatel\Seminario-S206-PYTEST);
+  * Rodar o comando **python get.py**, e o resutado deverá ser este:
+  ![image](resultado2.jpg)
+
+
+## Criando um teste de API
 * Os nomes dos scripts de teste do Pytest e seus métodos devem começar com test_ ou finalizar com _test.
 
 * ![image](teste.jpeg)

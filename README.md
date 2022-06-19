@@ -119,25 +119,25 @@ git clone https://github.com/luizamonroe/Seminario-S206-PYTEST.git
 * Utilizaremos o <a href ="http://dummy.restapiexample.com/api/v1/employees">Dummy </a> pela simplicidade e praticidade na hora de implementar nossos scripts. Ele nos oferece rotas com todos os verbos HTTP apresentados inicialmente e nos permite buscar, criar, deletar e atualizar empregados (employees).
 * Na IDE utilizada, crie um arquivo chamado **get.py**
 * A biblioteca **requests** será utilizada para realizar as chamadas nas APIs, então devemos importá-la no nosso get.py:
-![ímage](getpy.png)
+* ![ímage](getpy.png)
 * Guardaremos o Dummy na variável url:
-![image](dummy.jpg)
+* ![image](dummy.jpg)
 * Precisamos criar um cabeçalho (header) informando que vamos realizar um request e que aceitamos diversos tipos de resposta do endpoint:
-![image](headers.jpg)
+* ![image](headers.jpg)
 * Para realizar a busca pelos empregados utilizando a biblioteca request, utilizaremos a função do verbo get, informando a url utilizada, e guardaremos essa informação em "resposta":
-![image](resposta.jpg)
+* ![image](resposta.jpg)
 * E para imprimirmos a variável, e analisarmos o conteudo do site utilizado:
-![image](print.jpg)
+* ![image](print.jpg)
 
 ### Para rodar o script:
 * Pelo terminal da própria IDE utilizada:
   * Rodar o comando **python get.py**, e o resutado deverá ser este:
-  ![image](resultado.jpg)
+  * ![image](resultado.jpg)
 
 * Pelo terminal do próprio computador:
   * Navegar até a pasta criada (no meu caso Documents\Inatel\Seminario-S206-PYTEST);
   * Rodar o comando **python get.py**, e o resutado deverá ser este:
-  ![image](resultado2.jpg)
+  * ![image](resultado2.jpg)
 
 
 ## Criando um teste de API

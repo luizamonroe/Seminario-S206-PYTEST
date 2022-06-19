@@ -14,8 +14,11 @@
    - [Windows](#-windows-so-)
    - [Linux](#-linux-so)
    - [MacOS](#-macos)
-- [Vantagens Pytest](#vantagens-pytest)
-- [Passo a Passo (Criando um teste de API)](#passo-a-passo)
+- [Vantagens do Pytest](#vantagens-pytest)
+- [Clonando o projeto](#vantagens-do-pytest)
+- [Iniciando os testes de API](#iniciando-os-testes-de-api)
+  - [Rodando o script](#para-rodar-o-script)
+- [Criando um teste de API](#passo-a-passo)
 
 ## Sobre o Projeto
 Projeto desenvolvido para o seminário da matéria Qualidade de software(S206) ministrada pelo professor Chris Lima no primeiro semestre de 2022.
@@ -40,7 +43,7 @@ Normalmente, o PIP é instalado automaticamente se você:
 - Está usando IDE's como o <a href="https://www.jetbrains.com/pt-br/pycharm/">PyCharm</a>, que ja possui o PIP integrado e também uma fácil instalação do <a href="https://www.jetbrains.com/help/pycharm/pytest.html">Pytest</a>, direto em suas configurações de projeto.
 - O <a href ="https://code.visualstudio.com/docs/python/testing">VSCode</a> também tem sua extensão com o Python e seu guia de instalação. 
 
-## <p>💿 Windows S.O </p>
+### <p>💿 Windows S.O </p>
 <p>⚠️Antes de tudo, você pode usar o CMD do Windows ou até mesmo o <a href="https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/">Git</a> Bash para isso ⚠️</p>
 
 <p>Step 1: Rode o seguinte comando para baixar o arquivo "get-pip.py": </p>
@@ -79,7 +82,7 @@ pip install -U pytest
 pytest --version
 ```
 
-## 💿 Linux S.O 
+### 💿 Linux S.O 
 Você pode seguir o passo-a-passo do <a href ="https://python.org.br/instalacao-linux/">python.org </a> para instalação do Python em Linux
 
 ### Instalando o Pytest
@@ -93,7 +96,7 @@ Step 2:
 sudo apt-get install python-pytest
 ```
 
-## 💿 MacOS
+### 💿 MacOS
 Você pode seguir o passo-a-passo do <a href ="https://python.org.br/instalacao-mac/">python.org </a> para instalação do Python em MacOS
 
 

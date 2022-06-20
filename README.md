@@ -21,6 +21,7 @@
   - [Rodando o script](#para-rodar-o-script)
 - [Criando um teste de API](#passo-a-passo)
 - [Gerando report dos testes](#gerando-report-dos-testes)
+- [Arquivos](#arquivos-open_file_folder)
 
 ## Sobre o Projeto
 Projeto desenvolvido para o seminário da matéria Qualidade de software(S206) ministrada pelo professor Chris Lima no primeiro semestre de 2022.
@@ -192,7 +193,12 @@ pytest --json-report
 ## Arquivos :open_file_folder:
 <!--ts-->
 * :page_facing_up: get.py
+* ![image](getpycompleto.jpg)
 * :page_facing_up: test_get.py
+* ![image](testget.jpg)
 * :page_facing_up: test_put.py
+* ![image](testput.jpg)
 <!--te-->
+
+
 

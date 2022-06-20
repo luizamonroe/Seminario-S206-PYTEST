@@ -30,6 +30,8 @@ jobs:
         pip install build 
     - name: Pytest
       run: pip install -U pytest
+    - name: Requirements
+      run: pip install requirements.txt
     - name: Teste 
       run: pytest
  

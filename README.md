@@ -197,9 +197,7 @@ pytest --json-report
 
 ## Arquivos :open_file_folder:
 <!--ts-->
-* :page_facing_up: get.py
 
-![image](getpycompleto.jpg)
 * :page_facing_up: test_get.py
 
 ![image](testget.jpg)

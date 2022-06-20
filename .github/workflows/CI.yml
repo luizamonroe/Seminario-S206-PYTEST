@@ -12,9 +12,7 @@ on:
   push:
     branches: [main]
 
-defaults:
-  run:
-    working-directory: ./test_get.py 
+ 
 
 jobs:
   build:

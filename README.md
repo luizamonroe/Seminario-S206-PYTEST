@@ -19,7 +19,7 @@
 - [Clonando o projeto](#clonando-o-projeto-)
 - [Iniciando os testes de API](#iniciando-os-testes-de-api)
   - [Rodando o script](#para-rodar-o-script)
-- [Criando um teste de API](#passo-a-passo)
+- [Criando um teste de API](#criando-um-teste-de-api)
 - [Gerando report dos testes](#gerando-report-dos-testes)
 - [Arquivos](#arquivos-open_file_folder)
 
@@ -102,8 +102,6 @@ sudo apt-get install python-pytest
 ### 💿 MacOS
 Você pode seguir o passo-a-passo do <a href ="https://python.org.br/instalacao-mac/">python.org </a> para instalação do Python em MacOS
 
-
-
 ## Vantagens do Pytest
 * A sintaxe simples permite que pessoas de todos os níveis possam utilizá-lo sem dificuldade;
 * Permite execução de testes em paralelo;
@@ -111,7 +109,7 @@ Você pode seguir o passo-a-passo do <a href ="https://python.org.br/instalacao-
 * Detecta testes automaticamente baseando-se nos nomes dos arquivos e diretórios criados;
 * Open source.
 
-### Clonando o projeto 🔀
+## Clonando o projeto 🔀
 Agora é hora de baixar o projeto e poder testar um pouco dessa ferramenta de testes unitários.
 
 - Com o terminal ainda aberto, navegue até a pasta onde deseja salvar o projeto e cole o seguinte comando:

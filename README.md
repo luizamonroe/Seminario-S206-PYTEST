@@ -164,8 +164,7 @@ git clone https://github.com/luizamonroe/Seminario-S206-PYTEST.git
 
 * Para gerar os reports dos teste você precisa fazer os seguintes passos:
 * 1) Se quiser html reports
-```
-bash
+```bash
 pip install pytest-htm
 ```
 
@@ -178,12 +177,10 @@ pytest  --html=report.html
 * Obs: O comando pytest executa todos os testes da sua suíte de testes no diretório raíz.
 
 2) Se quiser por json-report
-```
-bash
+```bash
 pip install pytest-json-report — upgrade
 ```
 
 * Após a instalação ao executar os testes pelo cmd ou terminal da IDE que escolheu acrescente o comando --json-report, veja:
-```
-bash
+```bash
 pytest --json-report 

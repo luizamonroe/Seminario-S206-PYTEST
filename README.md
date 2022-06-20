@@ -20,7 +20,6 @@
 - [Iniciando os testes de API](#iniciando-os-testes-de-api)
   - [Rodando o script](#para-rodar-o-script)
 - [Criando um teste de API](#passo-a-passo)
-- [Gerando report dos testes](#gerando-report-dos-testes)
 
 ## Sobre o Projeto
 Projeto desenvolvido para o seminário da matéria Qualidade de software(S206) ministrada pelo professor Chris Lima no primeiro semestre de 2022.
@@ -82,6 +81,11 @@ pip install -U pytest
 - 2º Para saber a versão do Pytest, também é simples:
 ```bash
 pytest --version
+```
+
+- 3º Para instalar bibliotecas que são necessárias para realizar as requisições
+```bash
+pip install requests pytest
 ```
 
 ### 💿 Linux S.O 
@@ -164,8 +168,6 @@ git clone https://github.com/luizamonroe/Seminario-S206-PYTEST.git
 
 * Obs: O teste só deve passar caso as condições sejam verdadeiras.
 
-## Gerando report dos testes
-
 * Para gerar os reports dos teste você precisa fazer os seguintes passos:
 1) Se quiser html reports
 ```bash
@@ -187,12 +189,3 @@ pip install pytest-json-report — upgrade
 * Após a instalação ao executar os testes pelo cmd ou terminal da IDE que escolheu acrescente o comando --json-report, veja:
 ```bash
 pytest --json-report 
-```
-
-## Arquivos :open_file_folder:
-<!--ts-->
-* :page_facing_up: get.py
-* :page_facing_up: test_get.py
-* :page_facing_up: test_put.py
-<!--te-->
-

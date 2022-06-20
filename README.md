@@ -163,14 +163,13 @@ git clone https://github.com/luizamonroe/Seminario-S206-PYTEST.git
 * Obs: O teste só deve passar caso as condições sejam verdadeiras.
 
 * Para gerar os reports dos teste você precisa fazer os seguintes passos:
-* 1) Se quiser html reports
+1) Se quiser html reports
 ```bash
 pip install pytest-htm
 ```
 
 * Apos instalação ao executar o teste pelo cmd ou terminar da IDE que escolheu acrescente o comando  --html=report.html, veja:
-```
-bash
+```bash
 pytest  --html=report.html
 ```
 

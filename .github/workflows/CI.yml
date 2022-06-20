@@ -31,9 +31,7 @@ jobs:
     - name: Pytest
       run: pip install -U pytest
     - name: Requirements
-      run: pip install to-requirements.txt
-    - name: Abrindo o pacote
-      run: requirements-txt setup
+      run: python -m pip install requests
     - name: Teste 
       run: pytest
  

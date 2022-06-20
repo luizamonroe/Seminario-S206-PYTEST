@@ -6,17 +6,18 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Upload Python Package
+name: CI Python PYTEST
 
 on:
   push:
     branches: [main]
 
-permissions:
-  contents: read
+defaults:
+  run:
+    working-directory: ./test_get.py 
 
 jobs:
-  deploy:
+  build:
 
     runs-on: ubuntu-latest
 

@@ -124,7 +124,7 @@ git clone https://github.com/luizamonroe/Seminario-S206-PYTEST.git
 * Na IDE utilizada, crie um arquivo chamado **get.py**
 * A biblioteca **requests** será utilizada para realizar as chamadas nas APIs, então devemos importá-la no nosso get.py:
 
-  ![ímage](getpy.png)
+  ![ímage](Ibagens/getpy.png)
 * Guardaremos o Dummy na variável url:
 
   ![image](dummy.jpg)
